@@ -1,0 +1,63 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    font-size: 18px;
+    background-image: url(./bg.jpg);
+    overflow: visible;
+}
+
+#content {
+    margin: 230px 0 0px 0;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    
+}
+
+.container {
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 70px;
+}
+
+#content_wrapper {
+    position: relative;
+    margin: auto;
+    color: #000000;
+}
+
+#header_content {
+    font-size: 25px;
+}
+
+.bg-dark {
+    background-color: darkgreen!important;
+}
+
+.footer-copyright {
+        background-color: darkgreen;
+    color: white;
+}
+
+.table-dark {
+    color: #fff;
+    background-color: darkgreen;
+    opacity: 0.9;
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: white;
+}
+
+.author {
+   float: left; 
+}
+
+.date {
+    float: right;
+}
+.line { 
+    border-bottom: 2px solid #000000; 
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+   }
