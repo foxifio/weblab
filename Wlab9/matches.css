@@ -1,0 +1,75 @@
+section .content {
+    opacity: 0.9;
+    background: darkgreen;
+    padding: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+section h1, h4 {
+    text-align: center;
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+/* * * * * * * * * * * * *
+
+        SECTION 1
+
+* * * * * * * * * * * * */
+
+.first {
+    margin: 30px 0;
+}
+
+.match-table {
+    overflow-x:auto;
+}
+
+.first table {
+    margin: 20px auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.first tr {
+    height: 50px;
+}
+
+.first th, td {
+    width: 220px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.first th {
+    background: orange;
+}
+
+.first tr {
+    background: darkorange;
+}
+
+.first tr:nth-child(odd) {
+    background: green;
+}
+
+/* * * * * * * * * * * * *
+
+        SECTION 2
+
+* * * * * * * * * * * * */
+
+
+footer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 10px!important;
+    width: 60px;
+    height: 60px;
+    background: url(Surfing-Logo-Design-999x999.png) 25% 25%/ contain no-repeat;
+    animation-name: slide_rotate_unhide;
+    animation-duration: 3s;
+}
+
+.dropdown-menu{
+    background-color: #DCDCDC;
+}
+
+.dropdown-item:hover{
+    background-color: #A9A9A9;
+}
+
+/* CONTENT */
+
+.main-image {
+    width: 100%;
+    min-height: 500px;
+    background: url(2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.history-container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    background: #DCDCDC;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.history-container p, h1{
+    margin: 20px;
+}
+
+
+.divider {
+    width: 50%;
+    height: 3px;
+    background-color: #2e2d2d;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.tables {
+    text-align: center;
+}
+
+/* END OF CONTENT */
+
+/* Footer */
+
+footer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+}
+
+@keyframes slide_rotate_unhide {
+    from {
+        transform: rotate(0deg);
+        opacity: 0.0;     
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: 1;     
+    }
+}

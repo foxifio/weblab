@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html manifest="manifest">
+
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NBA:Milwaukee Bucks</title>
+    <link rel="icon" href="images/tab_logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="admin.css">
+    <!-- Own JS -->
+    <style>
+        body {
+            background-image: url('images/bg.jpg');
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+         <nav class="a navbar fixed-top navbar-expand-lg navbar-dark" style="
+    background-color: darkgreen;
+">
+        <a class="navbar-brand" href="#">Milwaukee Bucks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Main <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Matches
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="matches.html">Calendar of matches</a>
+                        <a class="dropdown-item" href="#">Next game</a>
+                        <a class="dropdown-item" href="#">Raitings</a>
+                    </div>
+                </li><li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fans.html">Fans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="admin.html">Admin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <content>
+        <section class="first">
+            <div class="content">
+                <h1>Add news</h1>
+                <div class="adding-image row">
+                    <div class="col-lg-4">
+                        <img id="news-image" src="images/add_image.png" alt="">
+                    </div>
+                    <div class="col-lg-4 add-image-btn">
+                        <label for="upload-image-button">Upload image</label>
+                        <input id="upload-image-button" type="file" class="upload-image-button" required>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="b">
+                <div class="forms col-lg-7">
+                    <textarea id="-" name="textarea-title" placeholder="News title..." cols="30" rows="2"></textarea>
+                    <textarea id="news-text" name="textarea-text" placeholder="News description..." cols="30" rows="10"></textarea>
+                </div>
+                <div class="col-lg-4">
+                    <button id="btnAdd" onclick="onClick()">Add news</button>
+                </div>
+            </div>
+        </section>
+    </content>
+
+     <footer>
+        <div class="content">
+            <div class="footer-title">© 2018 Milwaukee Bucks</div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/poppe.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="admin.js"></script>
+</body>
+
+</html>
